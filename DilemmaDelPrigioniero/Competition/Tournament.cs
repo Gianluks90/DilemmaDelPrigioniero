@@ -7,7 +7,7 @@ namespace DilemmaDelPrigioniero.Competition
 {
     public class Tournament
     {
-        public const int NUM_CLONES = 2;                      // Notazione, le costanti si scrivono tutte maiuscole con underscore tra le parole (es. NOME_COSTANTE);
+        public const int NUM_CLONES = 3;                      // Notazione, le costanti si scrivono tutte maiuscole con underscore tra le parole (es. NOME_COSTANTE);
         public const int NUM_MATCHES = 100;
         public const int BOTH_COOPERATE_SCORE = 50;
         public const int BOTH_DEFECT_SCORE = 30;
@@ -107,7 +107,7 @@ namespace DilemmaDelPrigioniero.Competition
         public void Sort()
         {
             //Extensions.BubbleSortComparable(players);
-            players.Sort(new PlayerComparer());     // Il Costruttore " lista.Sort " riordina una normale lista, in questo caso però non può;
+            players.Sort(new PlayerComparer());             // Il Costruttore " lista.Sort " riordina una normale lista, in questo caso però non può;
         }
 
         public void Reset()
