@@ -1,5 +1,6 @@
 ﻿using DilemmaDelPrigioniero.Competition;
 using System;
+using System.Collections;
 
 namespace DilemmaDelPrigioniero
 {
@@ -11,6 +12,8 @@ namespace DilemmaDelPrigioniero
             t.Giostra();
             t.Sort();
             t.ShowResult();
+            var e = new Evolution();
+            e.Evolve();
         }
     }
 }
