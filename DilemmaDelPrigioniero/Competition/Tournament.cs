@@ -106,7 +106,8 @@ namespace DilemmaDelPrigioniero.Competition
 
         public void Sort()
         {
-            //Extensions.BubbleSortComparable(players);
+//          IComparer<Player> pc = new PlayerComparer();
+//          Extensions.BubbleSortComparable(players);
             players.Sort(new PlayerComparer());             // Il Costruttore " lista.Sort " riordina una normale lista, in questo caso però non può;
         }
 
